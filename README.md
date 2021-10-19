@@ -14,7 +14,7 @@ To run this project you need to install the following:
 * PostgreSQL 10.18 or higher
 
 ### Installation
-1. Download data from ????
+1. Download data from https://doi.org/10.5281/zenodo.5576626
 2. Unzip compressed files by the following command in terminal:
 > cat x*.gz.part | tar -x -vz -f -
 3. Execute following command to create the chromium database in terminal:
