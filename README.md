@@ -27,10 +27,10 @@ To run this project you need to install the following:
 1. Run the following commands to prepare tables regarding blocking and non-blocking flaky failures scenarios:
 
 blocking:
-> psql chromium -f convert_chromium
+> psql chromium -f convert_chromium.sql
 
 non-blocking:
-> psql chromium -f convert_chromium_unexpected
+> psql chromium -f convert_chromium_unexpected.sql
 
 2. In the following scripts replace ‘secret’ in the psycopg2.connect() with database password you set.
 3. To remove repeated tests in each build run:
