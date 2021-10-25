@@ -1,6 +1,5 @@
 configparser==5.0.2
 DateTime==4.3
-pkg-resources==0.0.0
 psycopg2-binary==2.8.6
 pytz==2021.3
 zope.interface==5.4.0
