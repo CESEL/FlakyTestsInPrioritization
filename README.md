@@ -33,11 +33,13 @@ non-blocking:
 > psql chromium -f convert_chromium_unexpected.sql
 
 2. In the following scripts replace ‘secret’ in the psycopg2.connect() with database password you set.
-3. To remove repeated tests in each build run:
+3. To install dependency packages:
+> pip install -r requirements.txt
+4. To remove repeated tests in each build run:
 > python3 RemoveRepeatedTestsInEachBuild.py -t tests
 
 > python3 RemoveRepeatedTestsInEachBuild.py -t tests_unexpected
-4. Run the following commands to get the results from the algorithms:
+5. Run the following commands to get the results from the algorithms:
 
 No-Prioritization:
 > python3 fifo.py
